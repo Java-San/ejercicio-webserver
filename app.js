@@ -15,7 +15,7 @@ app.get('/', (req, res) =>  {
 
   res.render( 'home', {
 	  nombre: 'Javiera Quiñones',
-	  titulo: 'Curso Node'
+	  titulo: 'Node.js'
   } );
 });
 
@@ -24,7 +24,7 @@ app.get( '/generic', ( req, res ) => {
 
 	res.render( 'generic', {
 		nombre: 'Javiera Quiñones',
-		titulo: 'Curso Node'
+		titulo: 'Node.js'
 	} );
 } );
 
@@ -33,7 +33,7 @@ app.get( '/elements', ( req, res ) => {
 
 	res.render( 'elements', {
 		nombre: 'Javiera Quiñones',
-		titulo: 'Curso Node'
+		titulo: 'Node.js'
 	} );
 } );
 
